@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F631B7962068CECD000B4CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631B7952068CECD000B4CDB /* AppDelegate.swift */; };
+		F631B7982068CECD000B4CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631B7972068CECD000B4CDB /* ViewController.swift */; };
+		F631B79B2068CECD000B4CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F631B7992068CECD000B4CDB /* Main.storyboard */; };
+		F631B79D2068CECD000B4CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F631B79C2068CECD000B4CDB /* Assets.xcassets */; };
+		F631B7A02068CECD000B4CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F631B79E2068CECD000B4CDB /* LaunchScreen.storyboard */; };
+		F631B7AB2068CECD000B4CDB /* HYGTools_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631B7AA2068CECD000B4CDB /* HYGTools_SwiftUITests.swift */; };
+		F631B7B72068CF46000B4CDB /* YGUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631B7B62068CF46000B4CDB /* YGUIKit.swift */; };
+		F6ED815B2068FA0E00FAC214 /* YGUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED815A2068FA0E00FAC214 /* YGUIColorExtension.swift */; };
+		F6ED815D2068FA2900FAC214 /* YGUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED815C2068FA2900FAC214 /* YGUIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F631B7A72068CECD000B4CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F631B78A2068CECD000B4CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F631B7912068CECD000B4CDB;
+			remoteInfo = HYGTools_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F631B7922068CECD000B4CDB /* HYGTools_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYGTools_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F631B7952068CECD000B4CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F631B7972068CECD000B4CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F631B79A2068CECD000B4CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F631B79C2068CECD000B4CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F631B79F2068CECD000B4CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F631B7A12068CECD000B4CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F631B7A62068CECD000B4CDB /* HYGTools_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYGTools_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F631B7AA2068CECD000B4CDB /* HYGTools_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYGTools_SwiftUITests.swift; sourceTree = "<group>"; };
+		F631B7AC2068CECD000B4CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F631B7B62068CF46000B4CDB /* YGUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGUIKit.swift; sourceTree = "<group>"; };
+		F6ED815A2068FA0E00FAC214 /* YGUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGUIColorExtension.swift; sourceTree = "<group>"; };
+		F6ED815C2068FA2900FAC214 /* YGUIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGUIViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F631B78F2068CECD000B4CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F631B7A32068CECD000B4CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F631B7892068CECD000B4CDB = {
+			isa = PBXGroup;
+			children = (
+				F631B7942068CECD000B4CDB /* HYGTools_Swift */,
+				F631B7A92068CECD000B4CDB /* HYGTools_SwiftUITests */,
+				F631B7932068CECD000B4CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F631B7932068CECD000B4CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F631B7922068CECD000B4CDB /* HYGTools_Swift.app */,
+				F631B7A62068CECD000B4CDB /* HYGTools_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F631B7942068CECD000B4CDB /* HYGTools_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F631B7B52068CEE1000B4CDB /* Tools */,
+				F631B7952068CECD000B4CDB /* AppDelegate.swift */,
+				F631B7972068CECD000B4CDB /* ViewController.swift */,
+				F631B7992068CECD000B4CDB /* Main.storyboard */,
+				F631B79C2068CECD000B4CDB /* Assets.xcassets */,
+				F631B79E2068CECD000B4CDB /* LaunchScreen.storyboard */,
+				F631B7A12068CECD000B4CDB /* Info.plist */,
+			);
+			path = HYGTools_Swift;
+			sourceTree = "<group>";
+		};
+		F631B7A92068CECD000B4CDB /* HYGTools_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F631B7AA2068CECD000B4CDB /* HYGTools_SwiftUITests.swift */,
+				F631B7AC2068CECD000B4CDB /* Info.plist */,
+			);
+			path = HYGTools_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		F631B7B52068CEE1000B4CDB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F631B7B62068CF46000B4CDB /* YGUIKit.swift */,
+				F6ED815C2068FA2900FAC214 /* YGUIViewExtension.swift */,
+				F6ED815A2068FA0E00FAC214 /* YGUIColorExtension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F631B7912068CECD000B4CDB /* HYGTools_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F631B7AF2068CECD000B4CDB /* Build configuration list for PBXNativeTarget "HYGTools_Swift" */;
+			buildPhases = (
+				F631B78E2068CECD000B4CDB /* Sources */,
+				F631B78F2068CECD000B4CDB /* Frameworks */,
+				F631B7902068CECD000B4CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYGTools_Swift;
+			productName = HYGTools_Swift;
+			productReference = F631B7922068CECD000B4CDB /* HYGTools_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F631B7A52068CECD000B4CDB /* HYGTools_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F631B7B22068CECD000B4CDB /* Build configuration list for PBXNativeTarget "HYGTools_SwiftUITests" */;
+			buildPhases = (
+				F631B7A22068CECD000B4CDB /* Sources */,
+				F631B7A32068CECD000B4CDB /* Frameworks */,
+				F631B7A42068CECD000B4CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F631B7A82068CECD000B4CDB /* PBXTargetDependency */,
+			);
+			name = HYGTools_SwiftUITests;
+			productName = HYGTools_SwiftUITests;
+			productReference = F631B7A62068CECD000B4CDB /* HYGTools_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F631B78A2068CECD000B4CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = calmakon;
+				TargetAttributes = {
+					F631B7912068CECD000B4CDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F631B7A52068CECD000B4CDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F631B7912068CECD000B4CDB;
+					};
+				};
+			};
+			buildConfigurationList = F631B78D2068CECD000B4CDB /* Build configuration list for PBXProject "HYGTools_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F631B7892068CECD000B4CDB;
+			productRefGroup = F631B7932068CECD000B4CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F631B7912068CECD000B4CDB /* HYGTools_Swift */,
+				F631B7A52068CECD000B4CDB /* HYGTools_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F631B7902068CECD000B4CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F631B7A02068CECD000B4CDB /* LaunchScreen.storyboard in Resources */,
+				F631B79D2068CECD000B4CDB /* Assets.xcassets in Resources */,
+				F631B79B2068CECD000B4CDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F631B7A42068CECD000B4CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F631B78E2068CECD000B4CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F631B7B72068CF46000B4CDB /* YGUIKit.swift in Sources */,
+				F6ED815B2068FA0E00FAC214 /* YGUIColorExtension.swift in Sources */,
+				F631B7982068CECD000B4CDB /* ViewController.swift in Sources */,
+				F6ED815D2068FA2900FAC214 /* YGUIViewExtension.swift in Sources */,
+				F631B7962068CECD000B4CDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F631B7A22068CECD000B4CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F631B7AB2068CECD000B4CDB /* HYGTools_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F631B7A82068CECD000B4CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F631B7912068CECD000B4CDB /* HYGTools_Swift */;
+			targetProxy = F631B7A72068CECD000B4CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F631B7992068CECD000B4CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F631B79A2068CECD000B4CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F631B79E2068CECD000B4CDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F631B79F2068CECD000B4CDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F631B7AD2068CECD000B4CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F631B7AE2068CECD000B4CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F631B7B02068CECD000B4CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYGTools_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyagang.HYGTools-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F631B7B12068CECD000B4CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYGTools_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyagang.HYGTools-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F631B7B32068CECD000B4CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYGTools_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyagang.HYGTools-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYGTools_Swift;
+			};
+			name = Debug;
+		};
+		F631B7B42068CECD000B4CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYGTools_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyagang.HYGTools-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYGTools_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F631B78D2068CECD000B4CDB /* Build configuration list for PBXProject "HYGTools_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F631B7AD2068CECD000B4CDB /* Debug */,
+				F631B7AE2068CECD000B4CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F631B7AF2068CECD000B4CDB /* Build configuration list for PBXNativeTarget "HYGTools_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F631B7B02068CECD000B4CDB /* Debug */,
+				F631B7B12068CECD000B4CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F631B7B22068CECD000B4CDB /* Build configuration list for PBXNativeTarget "HYGTools_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F631B7B32068CECD000B4CDB /* Debug */,
+				F631B7B42068CECD000B4CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F631B78A2068CECD000B4CDB /* Project object */;
+}
